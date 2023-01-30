@@ -1,0 +1,272 @@
+.navig-align{
+    margin: auto;
+}
+
+.nav-item{
+    margin-left: 40px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    border-bottom: 3px solid white;
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    border-bottom: 3px solid #FF9900;
+    color:#FF9900;
+}
+
+.hero{
+    display: flex;
+    margin-top: 96px;  
+    align-items: center;
+}
+
+.btn-show-project{
+    width: 200px;
+    background-color:#FF9900;
+    color:white;
+    border-radius: 0;
+    font-weight: 700;
+}
+
+.btn-show-info{
+    width: 200px;
+    color:#FF9900;
+    border-radius: 0;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 60px;
+}
+
+.btn-show-project img{
+    margin-left: 15px;
+}
+
+.btn-show-info img{
+    margin-left: 15px;
+}
+
+.btn-contact{
+    outline: none;
+    background-color:#FF9900;
+    color:white;
+    border-radius: 0;
+    width: 146px;
+}
+
+.btn-contact img {
+    margin-left: 20px;
+}
+
+.middle-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.middle-part-2{
+    margin-top: 168px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.middle-part-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 223px;
+    padding: 0;
+    background-color:#263640;
+}
+
+.middle-part-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.middle-part-4 .col-7{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.middle-part-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 84px;
+}
+
+.middle-part-5 .col-lg-4{
+    padding-right: 5%;
+}
+
+.middle-part-end{
+    padding: 83px 0 107px 0;
+}
+
+.middle-part-end .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer{
+    padding-top: 55px;
+}
+
+.col-left{
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px 75px 50px 0;
+}
+
+.col-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.col-arcticle{
+    font-family: 'DIN Pro Light','Times New Roman', Times;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color:#929A9F;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+    line-height: 20px;
+    color:#929A9F;
+    font-family: 'DIN Pro Light','Times New Roman', Times;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+h2{
+    font-family: 'DIN Pro Light','Times New Roman', Times;
+    font-size: 24px;
+    line-height: 44px; 
+    color:#263640;
+    font-weight: bold;
+}
+
+.col-lg-2 h1{
+    font-family: 'DIN Pro Light','Times New Roman', Times;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+}
+
+.col-lg-2 p{   
+    font-family: 'DIN Pro Light','Times New Roman', Times;
+    font-size: 16px;
+    line-height: 26px; 
+    color:white;
+    opacity: 0.7;
+}
+
+h4{
+    font-family: 'DIN Pro Light','Times New Roman', Times;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px; 
+    color: #263640;
+    padding: 24px 0;
+    font-weight: bold;
+}
+
+.col-5 p{
+    font-family: 'DIN Pro Light','Times New Roman', Times;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: bold;
+    padding-top: 16px;
+    margin: 0;
+}
+
+.col-md-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8% 20% 0 8%;
+}
+
+.col-md-left p{
+    padding: 24px 0 0 0;
+    font-family: 'DIN Pro Light','Times New Roman', Times;
+    font-size: 18px;
+    line-height: 26px;
+    color:white;
+}
+
+.col-md-left h1{
+    margin-top: 24px;
+    font-family: 'DIN Pro Light','Times New Roman', Times;
+    font-size: 32px;
+    line-height: 44px;
+    color:white;
+    font-weight: bold;
+}
+
+.col-md-left h3{
+    text-transform: uppercase;
+    font-family: 'DIN Pro Light','Times New Roman', Times;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color:#929A9F;
+    font-weight: bold;
+}
+
+.col-md-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.col-md-right img{
+    height: 100%;
+}
+
+.line{
+    border: 1px solid white;
+    margin: 64px 0 40px 0;
+}
+
+.btn-link{
+    text-decoration: none;
+    font-family: 'DIN Pro Light','Times New Roman', Times;
+    font-size: 14px;
+    line-height: 18px;
+    color:white;
+    opacity: 0.7;
+}
+
+@font-face {
+    font-family: 'DIN Pro Light';
+    src: url('Fonts/DINPro-Light.eot');
+    src: url('Fonts/DINPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('Fonts/DINPro-Light.woff') format('woff'),
+    url('Fonts/DINPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
